@@ -36,6 +36,11 @@ body{
     text-decoration: none;
     margin-left: 50px;
     color: white;
+    transition: 0.3s;
+}
+
+.list li a:hover{
+    font-size: 18px;
 }
 
 #active{
@@ -48,8 +53,6 @@ body{
 
 .right li{
     list-style: none;
-    color: white;
-    font-size: 25px;
     display: flex;
     align-items: center;
     cursor: pointer;
@@ -63,7 +66,13 @@ body{
     margin-left: 25px;
     cursor: pointer;
     color: white;
-    font-family: orbitron   ;
+    font-family: orbitron;
+    transition: 0.3s;
+}
+
+.right button:hover{
+    background: white;
+    color: #57B8FF;
 }
 
 .content{
@@ -84,4 +93,61 @@ body{
 .left h1{
     font-size: 50px;
     color: white;
+}
+
+.buttons{
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.buttons button{
+    background: #57B8FF;
+    width: 150px;
+    height: 50px;
+    color: white;
+    font-family: orbitron;
+    border: none;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.buttons button:hover{
+    background: none;
+    border: 1px solid white;
+}
+
+.buttons li a{
+    margin-left: 25px;
+    text-decoration: none;
+    color: white;
+}
+
+.main-banner{
+    background: #FDD04A;
+    width: 100%;
+    height: 60vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.main-banner h1{
+    font-size: 50px;
+    color: #222730;
+    margin: 0;
+}
+
+.main-banner p{
+    font-size: 20px;
+    margin-top: 35px;
+    text-align: center;
+    color: #555555;
+}
+
+.main-banner img{
+    width: 1050px;
+    cursor: pointer;
+    margin-top: 25px;
 }
