@@ -1,0 +1,83 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400&display=swap');
+
+body{
+    margin: 0;
+    font-family: orbitron;
+}
+
+.banner{
+    position: relative;
+    display: flex;
+}
+
+.banner::before{
+    content: '';
+    width: 60%;
+    height: 100vh;
+    background: black;
+    position: absolute;
+    left: 0;
+}
+
+.banner::after{
+    content: '';
+    width: 40%;
+    height: 100vh;
+    background: #57B8FF;
+    position: absolute;
+    right: 0;
+    top: 0;
+}
+
+.nav{
+    width: 90%;
+    padding: 15px 5%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    z-index: 1;
+}
+
+.list{
+    z-index: 1;
+    display: flex;
+    list-style: none;
+}
+
+.list li a{
+    text-decoration: none;
+    margin-left: 50px;
+    color: white;
+}
+
+#active{
+    color: gold;
+}
+
+.right{
+    display: flex;
+    z-index: 1;
+}
+
+.right li{
+    list-style: none;
+    color: white;
+    font-size: 25px;
+    display: flex;
+    align-items: center;
+    cursor: pointer;
+}
+
+.right button{
+    width: 150px;
+    height: 50px;
+    background: none;
+    border: 1px solid white;
+    margin-left: 25px;
+    cursor: pointer;
+    color: white;
+    font-family: orbitron   ;
+}
