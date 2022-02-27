@@ -6,39 +6,24 @@ body{
 }
 
 .banner{
+    width: 90%;
+    height: 100vh;
+    padding: 15px 5%;
     position: relative;
-    display: flex;
+    background: url(../img/bg\ banner.png) center / cover;
 }
 
-.banner::before{
-    content: '';
-    width: 60%;
-    height: 100vh;
-    background: black;
-    position: absolute;
-    left: 0;
-}
-
-.banner::after{
-    content: '';
-    width: 40%;
-    height: 100vh;
-    background: #57B8FF;
-    position: absolute;
-    right: 0;
-    top: 0;
-}
 
 .nav{
-    width: 90%;
-    padding: 15px 5%;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
+
 .logo {
     z-index: 1;
+    list-style: none;
 }
 
 .list{
@@ -59,7 +44,6 @@ body{
 
 .right{
     display: flex;
-    z-index: 1;
 }
 
 .right li{
@@ -80,4 +64,24 @@ body{
     cursor: pointer;
     color: white;
     font-family: orbitron   ;
+}
+
+.content{
+    margin-left: 40px;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.left p{
+    color: #57B8FF;
+}
+
+#whiteP{
+    color: #999999;
+}
+
+.left h1{
+    font-size: 50px;
+    color: white;
 }
