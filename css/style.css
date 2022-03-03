@@ -5,6 +5,7 @@ body{
     font-family: orbitron;
     background: black;
     object-fit: cover;
+    scrollbar-color: red;
 }
 
 .banner{
@@ -322,10 +323,31 @@ body{
 }
 
 .news{
+    width: 90%;
+    padding: 15px 5%;
+}
+
+
+.news_nav{
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 90%;
-    padding-left: 5%;
 }
 
+.news-cards{
+    color: white;
+    display: flex;
+}
+
+.right-new{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.card_new{
+    margin-left: 70px;
+}
+
+.card_new h1{
+    font-size: 25px;
+}
